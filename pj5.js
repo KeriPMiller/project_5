@@ -88,14 +88,13 @@ myFunction2(x,y);
 
 // function 3
 
-var name = prompt ("What is your name?")
+var userName = prompt ("What is your name?");
 
-function myFunction3(name){
-	console.log(name + "?" + " " +"What a cool name!");
+function myFunction3(userName){
+	console.log(userName + "?" + " " +"What a cool name!");
 }
 
-myFunction3(name);
-
+myFunction3(userName);
 
 
 
